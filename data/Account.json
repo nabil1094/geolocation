@@ -6,7 +6,7 @@
                 "referenceId": "AccountRef1"
             },
             "Name": "Marriott Marquis",
-            "Location__Latitude__s": 300000000,
+            "Location__Latitude__s": 37.0000,
             "Location__Longitude__s": -122.403405
         },
         {
