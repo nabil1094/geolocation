@@ -45,6 +45,10 @@
                 <behavior>Edit</behavior>
                 <field>Location__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Number_of_Cats__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -255,6 +259,10 @@
         <fields>OPPORTUNITY.NAME</fields>
         <fields>PARTNER.ROLE</fields>
         <relatedList>RelatedPartnerList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Cat__c.Cat_Owner__c</relatedList>
     </relatedLists>
     <relatedObjects>ParentId</relatedObjects>
     <runAssignmentRulesDefault>false</runAssignmentRulesDefault>
