@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interests__c</fullName>
+    <externalId>false</externalId>
+    <label>Interests</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Quantum Physics</fullName>
+                <default>false</default>
+                <label>Quantum Physics</label>
+            </value>
+            <value>
+                <fullName>Quantum Chromodynamics</fullName>
+                <default>false</default>
+                <label>Quantum Chromodynamics</label>
+            </value>
+            <value>
+                <fullName>Quantum Electrodynamics</fullName>
+                <default>false</default>
+                <label>Quantum Electrodynamics</label>
+            </value>
+            <value>
+                <fullName>Material Physics</fullName>
+                <default>false</default>
+                <label>Material Physics</label>
+            </value>
+            <value>
+                <fullName>Advanced Thermodynamics for 22nd Century</fullName>
+                <default>false</default>
+                <label>Advanced Thermodynamics for 22nd Century</label>
+            </value>
+            <value>
+                <fullName>Advanced Maths for dummies</fullName>
+                <default>false</default>
+                <label>Advanced Maths for dummies</label>
+            </value>
+            <value>
+                <fullName>Cosmology (Speculations)</fullName>
+                <default>false</default>
+                <label>Cosmology (Speculations)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>
